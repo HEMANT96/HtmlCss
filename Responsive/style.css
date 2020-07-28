@@ -1,0 +1,81 @@
+body{
+   margin: 0;
+   padding: 0;
+
+
+}
+div{
+    margin-right: 0px;
+    padding-right:0px;
+}
+
+.div{
+    display: flex;
+    margin-left: 0em;
+    padding-left: 0em;
+}
+
+img{
+    width:200px;
+    height: 200px;
+    float: left;
+    padding-right:20px ;
+    margin-left: 0em;
+    padding-left: 0em;
+}
+
+  @media (max-width: 768px) {
+    img{
+        width:100%;
+        margin: 0em;
+        padding: 0em;
+
+    }
+  }
+
+h5{
+    color: red;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+@media (max-width: 768px) {
+    h5{
+        margin-left: 100px;
+        text-align: center;
+    }
+  }
+
+h6{
+    color:black;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+
+@media (max-width: 768px) {
+    h6{
+        margin-left: 2em;
+        margin-top: 0em ;
+        padding: 0em;
+    }
+  }
+.margin{
+    margin-left: 20px;
+    padding: 0em;
+    margin-right: 0em;
+    z-index: 1;
+}
+button{
+    color: peru;
+}
+
+
+@media (max-width: 768px) {
+    button{
+        margin-left: 2em;
+        margin-top: 0em ;
+        margin-bottom: 2em;
+    }
+  }
